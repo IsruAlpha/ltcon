@@ -166,7 +166,7 @@ export default function ConverterPage() {
       </main>
 
       <footer className="py-6">
-        <div className="max-w-5xl mx-auto px-6 flex items-center justify-between">
+        <div className="max-w-5xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-1 text-center">
           <p className="text-muted-foreground text-xs">
             ሰዓት — Convert AM/PM to Ethiopian time
           </p>
