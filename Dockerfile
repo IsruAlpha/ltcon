@@ -2,10 +2,10 @@ FROM node:20-slim
 
 WORKDIR /app
 
-COPY template-nextjs/package.json template-nextjs/package-lock.json* ./
+COPY package.json package-lock.json* ./
 RUN npm install
 
-COPY template-nextjs/ .
+COPY . .
 
 RUN npm run build
 
